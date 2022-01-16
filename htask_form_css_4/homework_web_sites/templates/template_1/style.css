@@ -1,0 +1,31 @@
+body {
+  background-color: grey;
+}
+
+.main {
+  background: blue;
+  width: 550px;
+  margin: 0 auto;
+  height: 1px auto 2px auto;
+}
+
+header {
+  width: 500px;
+  height: 100px;
+  background-color: #85C1E9;
+  margin: 0.5% auto;
+  }
+
+.container {
+  background-color: #82E0AA;
+  width: 500px;
+  height: 300px;
+  margin: 0.5% auto;
+}
+
+footer {
+  background-color: #85C1E9;
+  width: 500px;
+  height: 100px;
+  margin: 0.5% auto;
+}

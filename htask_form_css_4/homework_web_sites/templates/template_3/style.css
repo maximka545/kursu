@@ -1,0 +1,45 @@
+body {
+  background-color: grey;
+}
+
+header {
+  width: auto;
+  height: 100px;
+  background-color: #1F618D;
+  margin: 0.5% auto;
+  }
+
+.line {
+  width: auto;
+  margin: 0.5% auto;
+  background-color: #5B2C6F;
+}
+
+.col {
+  background-color: blue;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+}
+
+.main {
+  background-color: green;
+  width: 981px;
+  height: 300px;
+  display: inline-block;
+}
+
+.name {
+  background-color: yellow;
+  width: 900px;
+  height: 200px;
+  position: relative;
+  margin: 5% auto;
+}
+
+footer {
+  background-color: #85C1E9;
+  width: auto;
+  height: 100px;
+  margin: 0.5% auto;
+}

@@ -1,0 +1,20 @@
+.text {
+  display: block;
+  border: 1px solid black;
+  width: 400px;
+  margin:0;
+  padding:0;
+  background-image: url(https://as2.ftcdn.net/v2/jpg/01/14/77/19/500_F_114771972_ybHVW5AF9CzgkLcknpeStAGNrnSvsgIg.jpg);
+}
+
+.english {
+  color: maroon;
+  margin:0;
+  padding:0;
+}
+
+.russian {
+  color: crimson;
+  margin:0;
+  padding:0;
+}

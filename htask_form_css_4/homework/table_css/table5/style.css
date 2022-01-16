@@ -1,0 +1,33 @@
+.table {
+  width: 255px;
+  height: 125px;
+  margin: 20px;
+  display: block;
+}
+
+.col {
+ word-spacing: 0;
+ display: flex;
+}
+
+span {
+  border: 0.5px solid black;
+  text-align: left;
+  font-size: 10px;
+ }
+
+.red {
+  border-left: 3px solid #FF69B4;
+}
+
+.violet {
+  border-left: 3px solid #8A2BE2;
+}
+
+.yellow {
+  border-left: 3px solid #F0E68C;
+}
+
+.green {
+  border-left: 3px solid #32CD32;
+}

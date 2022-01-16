@@ -1,7 +1,0 @@
-.part1 p:nth-child(n+3) {
-  background-color: blue;
-}
-
-.part2 p:nth-child(-n+3) {
-  background-color: red
-  }

@@ -37,7 +37,15 @@
       <input type="date" id="datemin" name="datemin" min="2000-01-01"><br/>
 
       <label for="evaluation">Оцінка роботи президента (between 0 and 5):</label><br/>
-      <input type="range" id="evaluation" name="evaluation" min="0" max="5"><br/>
+      <input type="range" name="evaluation" min="0" max="5" list="rangeList1"><br/>
+      <datalist id="rangeList1">
+        <option value="0" label="0"></option>
+        <option value="1" label="1"></option>
+        <option value="2" label="2"></option>
+        <option value="3" label="3"></option>
+        <option value="4" label="4"></option>
+        <option value="5" label="5"></option>
+      </datalist><br/>
 
       <label for="vacation">Найкращий місяць для відпустки:</label><br/>
       <textarea id="story" name="story" rows="5" cols="33">
@@ -88,7 +96,7 @@
       </select><br/>
 
       <input type="reset" value="Очистить">
-      
+
       <input type="submit" value="Submit">
     </form>
   </body>

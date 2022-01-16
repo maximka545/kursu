@@ -1,0 +1,39 @@
+.main {
+  background-color: green;
+  display: flex;
+}
+
+td {
+   border: 1px solid grey;
+}
+
+#table1 {
+  height: 50px;
+  width: 85px;
+}
+.lefttable {
+  border: 1px solid grey;
+  background-color: white;
+  float: left;
+  border-width: medium;
+  border-collapse: collapse;
+  display: inline;
+}
+
+.centertable {
+  border: 1px solid grey;
+  background-color: white;
+  border-width: medium;
+  border-collapse: collapse;
+  display: inline;
+  float: left;
+}
+
+.righttable {
+  border: 1px solid grey;
+  background-color: white;
+  border-width: medium;
+  border-collapse: collapse;
+  display: inline;
+  float: left;
+}
