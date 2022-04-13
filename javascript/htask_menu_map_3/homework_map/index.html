@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    </head>
+  <body>
+    <h1>Місто Ужгород</h1>
+    <img src="./image_map.png" alt="Town" usemap="#Uzh" id="map">
+    <map name="#Uzh">
+      <area shape="rec" coords="293,561,408,635" href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%BD%D0%B0%D0%B9" alt="Munaj" target="_blank">
+      <area shape="rec" coords="443,536,540,646" href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B6%D0%B4%D1%83%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9_%D0%B6%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%B4%D0%B5%D0%BD%D1%8C" alt="8march" target="_blank">
+      <area shape="poly" coords="297,493,341,368,461,476" href="https://uk.wiktionary.org/wiki/%D0%B1%D1%96%D0%BB%D0%BE%D1%87%D0%BA%D0%B0" alt="click near Epicentr" target="_blank">
+      <area shape="poly" coords="537,777,605,603,680,677,642,834" href="https://uzhgorod.net.ua/news/140451" alt="click near silpo" target="_blank">
+      <area shape="circle" coords="355,366,100" href="https://uk.wikipedia.org/wiki/%D0%91%D0%BE%D0%B7%D0%B4%D0%BE%D1%88" alt="Near bozdosh" target="_blank">
+      <area shape="circle" coords="555,366,50" href="https://uk.wikipedia.org/wiki/%D0%A0%D0%B0%D0%B4%D0%B2%D0%B0%D0%BD%D0%BA%D0%B0_(%D0%A3%D0%B6%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)" alt="" target="_blank">
+    </map>
+    <script type="text/javascript">
+
+      function showCoords(event) {
+        var cX = event.clientX;
+        var sX = event.screenX;
+        var cY = event.clientY;
+        var sY = event.screenY;
+        var coords1 = "client - X: " + cX + ", Y coords: " + cY;
+        var coords2 = "screen - X: " + sX + ", Y coords: "+ sY;
+        console.log(coords1)
+        console.log(coords2)
+      }
+
+      const rect = document.getElementById("map")
+      rect.onclick = showCoords;
+    </script>
+  </body>
+</html>

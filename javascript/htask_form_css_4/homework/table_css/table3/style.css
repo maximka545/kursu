@@ -1,0 +1,165 @@
+/*
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px auto;
+}*/
+/*
+.container.head p {
+  background-color: white;
+  color: #556363;
+  display: inline-block;
+  width: 70px;
+  text-align: center;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin: 0px;
+  border-top: 2px;
+  border: 1px;
+  border-style: solid;
+  border-color: #A5B4BB;
+  margin-left: -0.36em;
+}
+
+.container.head:first-child {
+  size: 10p;
+  margin-left: 0;
+  width: 40 px;
+}
+
+.container.rows.row p {
+  display: inline-block;
+  width: 72px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-left: -0.36em;
+  }
+
+.container.rows.row:first-child{
+  margin-left: 0;
+
+}
+
+.container.rows.firstrow {
+  display: inline-block;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  width: 72px;
+  background-color: #C3Bf92;
+    margin-left: -0.36em
+}
+
+.container.rows.row:first-child{
+  margin-left: 0px;
+  width: 42px;
+}
+
+.container.rows.firstrow:nth-child(odd) {
+  background-color: #FDD6B5;
+  }
+
+.container.rows.row:first-child {
+  text-align: right;
+}
+
+.container.rows.row:first-child {
+  width: 40px;
+}*/
+
+.nul {
+  text-align: center;
+  width: auto;
+  height: auto;
+  word-spacing: 30px;
+    border: 1px solid black;
+}
+
+.firsttr {
+  text-align: center;
+  word-spacing: 18px;
+}
+
+.secondtr {
+  text-align: center;
+  word-spacing: 18px;
+}
+
+.thirdtr {
+  text-align: center;
+  word-spacing: 18px;
+}
+
+.forthtr {
+  text-align: center;
+  word-spacing: 17px;
+}
+
+.fifthtr {
+  text-align: center;
+  word-spacing: 18px;
+}
+
+.sixthtr {
+  text-align: center;
+  word-spacing: 19px;
+}
+
+.seventhtr {
+  text-align: center;
+  word-spacing: 10px;
+}
+
+.eighthtr {
+  text-align: center;
+  word-spacing: 10px;
+}
+
+.ninthtr {
+  text-align: center;
+  word-spacing: 16px;
+}
+
+.tenthtr {
+  text-align: center;
+  word-spacing: 11px;
+}
+
+.eleventhtr {
+  text-align: center;
+  word-spacing: 11px;
+}
+
+.twelvthtr {
+  text-align: center;
+  word-spacing: 15px;
+}
+
+.thirteenthtr {
+  text-align: center;
+  word-spacing: 12px;
+}
+
+.fourteenthtr {
+  text-align: center;
+  word-spacing: 15px;
+}
+
+#firstline {
+  background-color: #9A7D0A;
+
+}
+
+#blueline {
+  background-color: #5DADE2;
+}
+
+#orangeline {
+  background-color: #F7DC6F;
+}
+
+.container {
+  justify-content: center;
+  margin-left: 495px;
+  margin-right: 495px;
+}

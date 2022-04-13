@@ -1,0 +1,24 @@
+
+.chessgreenboard{
+    width: 720px;
+    height: 640px;
+    margin: 20px;
+    border: 25px solid grey;
+}
+.green {
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    text-align:center;
+    display:inline-block;
+    float:left;
+
+}
+.white {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    text-align:center;
+    display: inline-block;
+    float: left;
+}

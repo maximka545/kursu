@@ -1,0 +1,35 @@
+header {
+  text-align: center;
+  border-style: solid;
+  color: indigo;
+}
+
+h2 {
+  text-align: center;
+  color: red;
+}
+
+.intro {
+  text-indent: 25px;
+  color: brown;
+}
+
+.teachers {
+  display:flex;
+  justify-content: space-between;
+  color: brown;
+}
+
+footer {
+  text-align: center;
+  border-style: solid;
+  color: blue;
+}
+
+.workshop {
+  color: green;
+}
+
+.subjects {
+  color: brown;
+}

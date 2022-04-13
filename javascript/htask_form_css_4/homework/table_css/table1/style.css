@@ -1,0 +1,16 @@
+.table {
+  border: 5px grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px auto;
+}
+
+.first {
+  background-color: green;
+  color: white;
+}
+
+.rocks {
+  background-color: burlywood;
+}

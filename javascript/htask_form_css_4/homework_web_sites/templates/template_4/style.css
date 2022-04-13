@@ -1,0 +1,43 @@
+body {
+  background-color: grey;
+}
+
+.div1 {
+  width: 200px;
+  height: 100px;
+  background-color: pink;
+  float: left;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.div2 {
+  width: 200px;
+  height: 100px;
+  background-color: blue;
+  float: left;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.div3 {
+  width: 200px;
+  height: 100px;
+  background-color: orange;
+  float: left;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.div4 {
+  width: 200px;
+  height: 100px;
+  background-color: green;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  clear: both;
+}

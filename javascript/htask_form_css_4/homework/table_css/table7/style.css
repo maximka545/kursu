@@ -1,0 +1,11 @@
+.text {
+  display: block;
+}
+
+p::first-letter {
+  color: red;
+}
+
+.green {
+  color: lime;
+}
